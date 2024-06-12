@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace HotelListing.API.Data
+﻿namespace HotelListing.API.DTO.Hotel
 {
-    public class Hotel
+    public class HotelDto
     {
         public int Id { get; set; }
 
