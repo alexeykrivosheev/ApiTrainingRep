@@ -13,5 +13,7 @@ namespace HotelListing.API.Data
         public double Rating { get; set; }
 
         public int CountryId { get; set; }
+
+        public Country Country { get; set; }
     }
 }
